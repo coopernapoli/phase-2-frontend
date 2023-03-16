@@ -11,3 +11,13 @@ body {
   width: auto;
 }
 
+#contact {
+  background-color: white;
+  padding: 20px;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
