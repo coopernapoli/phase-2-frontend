@@ -31,8 +31,9 @@ function Contact() {
             <input type="checkbox" name="question3" value="option5" /> Spirited - I need this to be a place where I know I will recieve positive support relative to my life and goals.
           </label>
           <label>
-            Question 4: 
-            <textarea name="question4" />
+            Question 4: Will you train live or online?
+            <input type="radio" name="question2" value="yes" /> Live
+            <input type="radio" name="question2" value="no" /> Online
           </label>
           <label>
             Question 5:
