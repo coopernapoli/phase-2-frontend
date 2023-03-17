@@ -22,14 +22,36 @@ function Contact() {
             <input type="radio" name="question2" value="yes" /> Yes
             <input type="radio" name="question2" value="no" /> No
           </label>
-          <label>
+        <label>
+            
             Question 3: What style(s) of coaching do you like?
-            <input type="checkbox" name="question3" value="option1" /> Direct - Tell me how things are for me as simply as possible and as directly as possible.
-            <input type="checkbox" name="question3" value="option2" /> Authoritarian - I want to show up and have you tell me what to do and how to do it.
-            <input type="checkbox" name="question3" value="option3" /> Informative - I need to know the why behind what we are doing to be invested.
-            <input type="checkbox" name="question3" value="option4" /> Visionary - I need direction and motivation towards something positive for myself.
-            <input type="checkbox" name="question3" value="option5" /> Spirited - I need this to be a place where I know I will recieve positive support relative to my life and goals.
-          </label>
+        `   <div>
+                <label>
+                <input type="checkbox" name="question3" value="option1" />
+                Direct - Tell me how things are for me as simply as possible and as directly as possible.
+                </label>
+                <br />
+                <label>
+                <input type="checkbox" name="question3" value="option2" />
+                Authoritarian - I want to show up and have you tell me what to do and how to do it.
+                </label>
+                <br />
+                <label>
+                <input type="checkbox" name="question3" value="option3" />
+                Informative - I need to know the why behind what we are doing to be invested.
+                </label>
+                <br />
+                <label>
+                <input type="checkbox" name="question3" value="option4" />
+                Visionary - I need direction and motivation towards something positive for myself.
+                </label>
+                <br />
+                <label>
+                <input type="checkbox" name="question3" value="option5" />
+                Spirited - I need this to be a place where I know I will receive positive support relative to my life and goals.
+                </label>
+            </div>
+            </label>
           <label>
             Question 4: Will you train live or online?
             <input type="radio" name="question2" value="yes" /> Live
