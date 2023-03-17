@@ -1,6 +1,8 @@
 import React from 'react';
 
 function Contact() {
+
+    
     return (
       <div id="contact">
         <h1>Submit Application</h1>
@@ -54,8 +56,8 @@ function Contact() {
             </label>
           <label>
             Question 4: Will you train live or online?
-            <input type="radio" name="question2" value="yes" /> Live
-            <input type="radio" name="question2" value="no" /> Online
+            <input type="radio" name="question2" value="live" /> Live
+            <input type="radio" name="question2" value="online" /> Online
           </label>
           <label>
             Question 5:
@@ -66,6 +68,7 @@ function Contact() {
               <option value="option4">Excellent - I track macronutrient intake with precision and eat from clean food sources. I can tell you how I will feel with accuracy </option>
             </select>
           </label>
+          <button type="submit">Submit</button>
         </form>
       </div>
     );
