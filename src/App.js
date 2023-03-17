@@ -1,8 +1,9 @@
+import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import React from 'react';
 import './App.css';
 import Home from './Home'
 import About from './About'
 import Contact from './Contact';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './Link';
 
 function App() {
