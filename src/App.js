@@ -1,4 +1,4 @@
-import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import { Routes, BrowserRouter, NavBar, Route } from 'react-router-dom';
 import React from 'react';
 import './App.css';
 import Home from './Home'
@@ -8,17 +8,19 @@ import Navbar from './Link';
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
     <div className="App">
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      <Routes>
+        <Route path="/" element= {<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
     </div>
-  </BrowserRouter>
+  </div>
   );
-}
+};
+
+
 
 export default App;
