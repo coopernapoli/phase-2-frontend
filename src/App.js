@@ -1,6 +1,7 @@
-import { Routes, BrowserRouter, NavBar, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 import './App.css';
+import './Home.css';
 import Home from './Home'
 import About from './About'
 import Contact from './Contact';
@@ -38,12 +39,14 @@ function App() {
             Random Workout
           </a>
         </Menu>
+      <div className='content'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/generateworkout" element={<GenerateWorkout />} />
         </Routes>
+      </div>
       </div>
     </div>
   );
