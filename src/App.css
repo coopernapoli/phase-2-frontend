@@ -5,6 +5,38 @@ body {
   text-align: center;
   color: #e2a213;
 }
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #e2a213;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #e2a213;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #e2a213;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 #DeltaFiveLogo {
   height: 200px;
