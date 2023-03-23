@@ -37,8 +37,8 @@ const GenerateWorkout = () => {
 
   return (
     <div id= 'radndomWorkout'className="random-workout">
-      <h1>Random Workout</h1>
-      <button onClick={handleClick}>Generate Workout!!!</button>
+      <h1 className="header">Random Workout</h1>
+      <button id="generateWorkoutBtn" onClick={handleClick}>Generate Workout</button>
       {workout.length > 0 && (
         <div className="workout-container">
           <ol>
