@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(black, black, black, #e2a213);
+  background: black;
 }
 .App {
   text-align: center;
@@ -46,11 +46,11 @@ body {
   width: auto;
 }
 
-#contact {
+#contactContainer {
   background: white;
-  padding: 20px;
+  padding: 10px;
   color: black;
-  margin: 10%;
+  margin: 5%;
 }
 
 #generateWorkoutBtn {
