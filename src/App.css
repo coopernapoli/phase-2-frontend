@@ -20,11 +20,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
   color: #e2a213;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#aboutParagraph {
+  margin-bottom: 20px;
 }
 
 #Contact {
@@ -47,6 +50,10 @@ body {
   background-color: white;
   padding: 20px;
   color: black;
+}
+
+.header {
+  text-shadow: 1px 1px 1px white ;
 }
 
 label {
