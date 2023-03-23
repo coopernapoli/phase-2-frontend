@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: linear-gradient(black, black, black, #e2a213);
 }
 .App {
   text-align: center;
@@ -42,14 +42,45 @@ body {
 }
 
 #DeltaFiveLogo {
-  height: 200px;
+  height: 500px;
   width: auto;
 }
 
 #contact {
-  background-color: white;
+  background: white;
   padding: 20px;
   color: black;
+  margin: 10%;
+}
+
+#generateWorkoutBtn {
+  background: linear-gradient(#e2a213, white);
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
 }
 
 .header {
