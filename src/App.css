@@ -51,6 +51,8 @@ body {
   padding: 10px;
   color: black;
   margin: 5%;
+  position: relative;
+  z-index: 2;
 }
 
 #generateWorkoutBtn {
@@ -81,6 +83,20 @@ body {
 		transform: scale(0.95);
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
+}
+
+.success-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: black;
+  color: white;
 }
 
 .header {
