@@ -4,27 +4,27 @@ function Contact() {
 
     
     return (
-      <div id="contact">
-        <h1>Submit Application</h1>
+      <div id="contactContainer">
+        <h1 className='header'>Submit Application</h1>
         <form>
-          <label>
+          <label className='label'>
             Name:
             <input type="text" name="name" />
           </label>
-          <label>
+          <label className='label'>
             Email:
             <input type="email" name="email" />
           </label>
-          <label>
-            Question 1: In your own words, how would you describe your goal? Be subjective and objective.
-            <input type="text" name="question1" />
+          <label className='label'>
+            Question 1: In your own words, how would you describe your goal? Be subjective and objective. <br></br>
+            <textarea></textarea>
           </label>
-          <label>
-            Question 2: Have you ever worked with a coach before towards this goal?
+          <label className='label'>
+            Question 2: Have you ever worked with a coach before towards this goal? <br></br>
             <input type="radio" name="question2" value="yes" /> Yes
             <input type="radio" name="question2" value="no" /> No
           </label>
-        <label>
+        <label className='label'>
             
             Question 3: What style(s) of coaching do you like?
         `   <div>
@@ -54,13 +54,13 @@ function Contact() {
                 </label>
             </div>
             </label>
-          <label>
-            Question 4: Will you train live or online?
+          <label className='label'>
+            Question 4: Will you train live or online? <br></br>
             <input type="radio" name="question2" value="live" /> Live
             <input type="radio" name="question2" value="online" /> Online
           </label>
-          <label>
-            Question 5:
+          <label className='label'>
+            Question 5: How would you rate your nutrition? <br></br>
             <select name="question5">
               <option value="option1">Poor - I track nothing, eat anything, and feel terrible.</option>
               <option value="option2">Okay - I loosely track and monitor what I eat. I lack understanding of how I am positively or negatively impacted by food.</option>
