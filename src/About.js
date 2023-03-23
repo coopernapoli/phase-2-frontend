@@ -1,10 +1,10 @@
 import React from 'react';
-import {Follow, Timeline, Tweet} from 'react-twitter-widgets';
+import {Timeline} from 'react-twitter-widgets';
 
 function About() {
 return (
      <div id="About">
-        <h1>About</h1>
+        <h1 className='header'>About</h1>
         <p id='aboutParagraph'> Delta-Five Performance primarily serves individuals 
             seeking to break through a plateau in their training. 
             We specialize, but are not limited too, helping prepare tactical 
