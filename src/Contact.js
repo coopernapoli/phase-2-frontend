@@ -1,12 +1,48 @@
 import React from 'react';
 
+function handleSubmit(event) {
+  event.preventDefault();
+  
+  // Get form data
+  const formData = new FormData(event.target);
+  const name = formData.get('name');
+  const email = formData.get('email');
+  const goal = formData.get('goals');
+  const coaching = formData.getAll('question3');
+  const location = formData.get('question4');
+  const nutrition = formData.get('question5');
+
+  // Reset the form
+  event.target.reset();
+  console.log('Creating success container');
+  const successContainer = document.createElement("div");
+  successContainer.className = "success-container";
+
+  console.log('Creating success message');
+  const successMessage = document.createElement("p");
+  successMessage.textContent = `Hello ${name}, we will reach out to you shortly at ${email}!`;
+  successContainer.appendChild(successMessage);
+
+  console.log('Creating close button');
+  const closeButton = document.createElement("button");
+  closeButton.textContent = "Close";
+  closeButton.addEventListener("click", () => {
+    successContainer.parentNode.removeChild(successContainer);
+  });
+  successContainer.appendChild(closeButton);
+
+  console.log('Inserting success container');
+  const contactContainer = document.getElementById("contactContainer");
+  contactContainer.parentNode.insertBefore(successContainer, contactContainer.nextSibling);
+}
+
 function Contact() {
 
     
     return (
       <div id="contactContainer">
         <h1 className='header'>Submit Application</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
           <label className='label'>
             Name:
             <input type="text" name="name" />
@@ -17,7 +53,7 @@ function Contact() {
           </label>
           <label className='label'>
             Question 1: In your own words, how would you describe your goal? Be subjective and objective. <br></br>
-            <textarea></textarea>
+            <textarea id='goals'></textarea>
           </label>
           <label className='label'>
             Question 2: Have you ever worked with a coach before towards this goal? <br></br>
@@ -73,5 +109,7 @@ function Contact() {
       </div>
     );
   }
+
+
  
 export default Contact;
