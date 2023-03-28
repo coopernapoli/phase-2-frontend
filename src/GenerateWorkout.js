@@ -82,6 +82,7 @@ const GenerateWorkout = () => {
                   type="number"
                   value={results[index] || ""}
                   onChange={(event) => handleInputChange(index, event)}
+                  placeholder={index < 4 ? "lbs" : index === 4 ? "calories" : ""}
                 />
               </li>
             ))}
