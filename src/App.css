@@ -67,6 +67,7 @@ body {
   margin: 4px 2px;
   border-radius: 12px;
   animation: pulse 2s infinite;
+  margin-bottom: 30px;
 }
 @keyframes pulse {
 	0% {
@@ -164,21 +165,17 @@ label div {
   color: #b8b7ad;
 }
 
-.random-workout {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .random-workout .workout-container {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 16px;
   border: 1px solid black;
   border-radius: 4px;
   margin-bottom: 20px;
   width: 80%;
+  box-shadow: 1px 1px 3px white;
+  border-color: white;
+  overflow-x: auto;
 }
 
 .random-workout .workout-container h2 {
@@ -206,3 +203,40 @@ label div {
 .random-workout .generate-workout-btn:hover {
   background-color: #d19712;
 }
+
+.random-workout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.workout-container ol {
+  counter-reset: exercise-counter;
+  list-style: none;
+  padding: 10;
+}
+
+.workout-container li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  counter-increment: exercise-counter;
+  flex-wrap: nowrap;
+}
+
+.workout-container li::before {
+  content: counter(exercise-counter) ".";
+  position: absolute;
+  left: -20px;
+}
+
+input[type="number"] {
+  margin-left: 10px;
+}
+
+
+
