@@ -240,5 +240,10 @@ input[type="number"] {
   margin-left: 10px;
 }
 
+#welcome {
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 
