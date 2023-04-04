@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 const getRandomElement = (array) => array[Math.floor(Math.random() * array.length)];
@@ -6,6 +6,10 @@ const getRandomElement = (array) => array[Math.floor(Math.random() * array.lengt
 const GenerateWorkout = () => {
   const [workout, setWorkout] = useState([]);
   const [results, setResults] = useState({});
+
+  useEffect(() => {
+    fetchExercises();
+  }, []);
 
   const fetchExercises = async () => {
     const response = await fetch("http://localhost:5001/exercises");
@@ -77,7 +81,9 @@ const GenerateWorkout = () => {
           <ol>
             {workout.map((exercise, index) => (
               <li key={index}>
-                {exercise.name} - {exercise.prescription.sets} Sets of {exercise.prescription.reps || exercise.prescription.work} {exercise.prescription.reps ? 'Reps' : 'Seconds'} - {exercise.cue}
+                {exercise.name} - {exercise.prescription.sets} 
+                Sets of {exercise.prescription.reps || exercise.prescription.work}
+                 {exercise.prescription.reps ? 'Reps' : 'Seconds'} - {exercise.cue}
                 <input 
                   type="number"
                   value={results[index] || ""}
