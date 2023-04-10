@@ -1,0 +1,447 @@
+{
+  "exercises": {
+    "upper-body": [
+      {
+        "id": 1,
+        "name": "Barbell Bench Press",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Lift the lower traps through the sternum as you pull the bar down to the chest.",
+        "results": []
+      },
+      {
+        "id": 2,
+        "name": "Barbell Shoulder Press",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Squeeze the fists as you press towards the sky and sit your face through the window your arms create.",
+        "results": []
+      },
+      {
+        "id": 3,
+        "name": "Weighted Chin-Up",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Chin must break over the bar and arms must be fully locked at the bottom.",
+        "results": []
+      },
+      {
+        "id": 4,
+        "name": "Barbell Row",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "For more traps, extend the spine.  For more lats, keep the spine neutral.",
+        "results": []
+      }
+    ],
+    "lower-body": [
+      {
+        "id": 5,
+        "name": "High-Bar Box Squat",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Keep the lower traps pulled through the sternum as you simultaneously break at the knee and hip.",
+        "results": []
+      },
+      {
+        "id": 6,
+        "name": "Conventional Deadlift",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Laces under the bar, bend over and grab the bar, shins to the bar, lift the chest, and drive your feet through the floor.",
+        "results": []
+      },
+      {
+        "id": 7,
+        "name": "Sumo Deadlift",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Start with the shins touching the bar with the feet abducted and externally rotated to your comfort level, upright the spine, and drive the feet through the floor as you pull.",
+        "results": []
+      },
+      {
+        "id": 8,
+        "name": "High-Bar Bulgarian Split Squat",
+        "prescriptions": [
+          {
+            "sets": 3,
+            "reps": 5
+          },
+          {
+            "sets": 3,
+            "reps": 3
+          },
+          {
+            "sets": 4,
+            "reps": 8
+          }
+        ],
+        "cue": "Rear knee must graze but not crash into the ground as the lead leg travels forward and down.",
+        "results": []
+      }
+    ],
+    "cardio": [
+      {
+        "id": 9,
+        "name": "Rower Machine",
+        "prescriptions": [
+          {
+            "type": "LISS",
+            "duration": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 10,
+            "work": 30,
+            "rest": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 5,
+            "work": 60,
+            "rest": 60
+          }
+        ],
+        "cue": "Make sure to fully protract and retract each rep for maximal output.",
+        "results": []
+      },
+      {
+        "id": 10,
+        "name": "Assault Bike",
+        "prescriptions": [
+          {
+            "type": "LISS",
+            "duration": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 10,
+            "work": 30,
+            "rest": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 5,
+            "work": 60,
+            "rest": 60
+          }
+        ],
+        "cue": "Seat should be set so as to never have less than a 15 degree bend in the knee in the most extended position.",
+        "results": []
+      },
+      {
+        "id": 11,
+        "name": "Stair Master",
+        "prescriptions": [
+          {
+            "type": "LISS",
+            "duration": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 10,
+            "work": 30,
+            "rest": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 5,
+            "work": 60,
+            "rest": 60
+          }
+        ],
+        "cue": "For more glue, hinge forward at the hip.  For more quad, stay more upright.",
+        "results": []
+      },
+      {
+        "id": 12,
+        "name": "Ski Erg",
+        "prescriptions": [
+          {
+            "type": "LISS",
+            "duration": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 10,
+            "work": 30,
+            "rest": 30
+          },
+          {
+            "type": "Intervals",
+            "sets": 5,
+            "work": 60,
+            "rest": 60
+          }
+        ],
+        "cue": "Ensure you pull down with the hips as well as the arms for maximal output.",
+        "results": []
+      }
+    ]
+  },
+  "workouts": [
+    [
+      {
+        "exerciseId": 8
+      },
+      {
+        "exerciseId": 4,
+        "result": []
+      },
+      {
+        "exerciseId": 8
+      },
+      {
+        "exerciseId": 1
+      },
+      {
+        "exerciseId": 9,
+        "result": []
+      }
+    ],
+    [
+      {
+        "exerciseId": 7,
+        "result": "400"
+      },
+      {
+        "exerciseId": 2,
+        "result": "300"
+      },
+      {
+        "exerciseId": 5,
+        "result": "1000"
+      },
+      {
+        "exerciseId": 4,
+        "result": "100"
+      },
+      {
+        "exerciseId": 11,
+        "result": "100"
+      }
+    ],
+    [
+      {
+        "exerciseId": 7
+      },
+      {
+        "exerciseId": 3
+      },
+      {
+        "exerciseId": 5,
+        "result": []
+      },
+      {
+        "exerciseId": 2,
+        "result": []
+      },
+      {
+        "exerciseId": 9
+      }
+    ],
+    [
+      {
+        "exerciseId": 8
+      },
+      {
+        "exerciseId": 2
+      },
+      {
+        "exerciseId": 8,
+        "result": []
+      },
+      {
+        "exerciseId": 4
+      },
+      {
+        "exerciseId": 10,
+        "result": []
+      }
+    ],
+    [
+      {
+        "exerciseId": 8,
+        "result": ""
+      },
+      {
+        "exerciseId": 2
+      },
+      {
+        "exerciseId": 8,
+        "result": []
+      },
+      {
+        "exerciseId": 4
+      },
+      {
+        "exerciseId": 10,
+        "result": []
+      }
+    ],
+    [
+      {
+        "exerciseId": 6,
+        "result": "500"
+      },
+      {
+        "exerciseId": 2,
+        "result": "600"
+      },
+      {
+        "exerciseId": 7,
+        "result": "700"
+      },
+      {
+        "exerciseId": 4,
+        "result": "800"
+      },
+      {
+        "exerciseId": 11,
+        "result": "900"
+      }
+    ],
+    [
+      {
+        "exerciseId": 7
+      },
+      {
+        "exerciseId": 3,
+        "result": []
+      },
+      {
+        "exerciseId": 8
+      },
+      {
+        "exerciseId": 1,
+        "result": []
+      },
+      {
+        "exerciseId": 12
+      }
+    ],
+    [
+      {
+        "exerciseId": 5
+      },
+      {
+        "exerciseId": 3,
+        "result": []
+      },
+      {
+        "exerciseId": 5
+      },
+      {
+        "exerciseId": 1,
+        "result": []
+      },
+      {
+        "exerciseId": 11
+      }
+    ],
+    [
+      {
+        "exerciseId": 8,
+        "result": "100"
+      },
+      {
+        "exerciseId": 3
+      },
+      {
+        "exerciseId": 8,
+        "result": []
+      },
+      {
+        "exerciseId": 2,
+        "result": []
+      },
+      {
+        "exerciseId": 11
+      }
+    ]
+  ]
+}
